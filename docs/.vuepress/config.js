@@ -10,9 +10,6 @@ module.exports = {
   markdown: {
     lineNumbers: true, // 代码行号
   },
-
-  head,
-  // vssue 评论插件
   plugins: [
     [
       "vuepress-plugin-vssue-global",
@@ -29,6 +26,8 @@ module.exports = {
       },
     ],
   ],
+
+  head,
   themeConfig,
 }
 
